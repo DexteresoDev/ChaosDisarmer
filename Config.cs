@@ -9,5 +9,6 @@ namespace ChaosDisarmer
         public bool IsEnabled { get; set; } = true;
         [Description("Will the plugin outout debug information?")]
         public bool debug { get; set; } = false;
+        public string configVersion { get; private set; } = "1";
     }
 }
