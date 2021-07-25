@@ -9,7 +9,7 @@ namespace ChaosDisarmer.Handlers
         public void OnChangedRole(ChangedRoleEventArgs ev)
         {
             var Config = new Config();
-            if (Config.debug)
+            if (Config.Debug)
             {
                 Log.Debug($"{ev.Player} changed from {ev.OldRole} to {ev.Player.Role}");
             }
@@ -20,7 +20,7 @@ namespace ChaosDisarmer.Handlers
                 {
                     ev.Player.AddItem(ItemType.Disarmer);
                 }
-                if (Config.debug)
+                if (Config.Debug)
                 {
                     Log.Debug($"Gave {ev.Player} a Disarmer");
                 }
