@@ -27,8 +27,8 @@ namespace ChaosDisarmer.Handlers
             }
             catch (Exception ex)
             {
-                Log.Error("Unable to give player disarmer");
-                Log.Error(ex); ;
+                Log.Error($"Unable to give player ({ev.Player}) a Disarmer");
+                Log.Error($"Exception: {ex}");
             }
         }
     }
