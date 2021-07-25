@@ -2,8 +2,7 @@
 using System.ComponentModel;
 
 namespace ChaosDisarmer
-{
-    public sealed class Config : IConfig
+{    public sealed class Config : IConfig
     {
         [Description("Is the plugin enabled?")]
         public bool IsEnabled { get; set; } = true;
