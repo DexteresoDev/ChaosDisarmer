@@ -26,6 +26,7 @@ namespace ChaosDisarmer
         {
             if (Config.IsEnabled)
             {
+                Log.Debug("Thanks for using ChaosDisarmer by Jatc251.");
                 RegisterEvents();
             }
 
